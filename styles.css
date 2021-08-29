@@ -66,3 +66,10 @@ section h1{
   background: linear-gradient(to right top, #f46b45, #eea849);
   transition: all 0.5s ease;
 }
+
+@media (max-width:440px){
+  nav h2, nav ul {
+    font-size: 1rem;
+    flex: 1;
+  }
+}
